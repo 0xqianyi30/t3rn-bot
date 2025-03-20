@@ -1,11 +1,10 @@
 # network_config.py
 
 networks = {
-    'Base': {
-        'rpc_url': 'https://sepolia.base.org', 
-        'chain_id': 84532, 
-        'contract_address': 
-        '0xCEE0372632a37Ba4d0499D1E2116eCff3A17d3C3' 
+    'Arbitrum': {
+        'rpc_url': 'https://sepolia-rollup.arbitrum.io/rpc',
+        'chain_id': 421614,
+        'contract_address': '0x22B65d0B9b59af4D3Ed59F18b9Ad53f5F4908B54' 
     },
     'OP Sepolia': {
         'rpc_url': 'https://endpoints.omniatech.io/v1/op/sepolia/public',
